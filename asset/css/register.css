@@ -1,0 +1,172 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.top{
+	width: 100%;
+	height: 34px;
+}
+.t-content{
+	width: 1100px;
+	height: 34px;
+	margin: auto;
+}
+.t-ul1{
+	float: left;
+}
+.t-content li{
+	display: inline;
+	font-size: 12px;
+	line-height: 34px;
+}
+.welcome{
+	margin: 0px 20px 0px 5px;
+}
+.t-content img{
+	margin-left: 32px;
+	position: relative;
+	top: 5px;
+}
+.t-content span{
+	color: #e73e41;
+}
+.t-content a:link,.t-content a:visited{
+	text-decoration: none;
+	color: black;
+}
+.t-content a:hover,.t-content a:active{
+	color: red;
+}
+.t-ul2{
+	float: right;
+}
+.head{
+	width: 100%;
+	height: 111px;
+	background-color: #f5f5f5;
+}
+.h-content{
+	width: 1100px;
+	height: 111px;
+	margin: auto;
+}
+.h-content img{
+	float: left;
+	margin: 23px 0px 0px 0px;
+}
+.h-content ul{
+	position: relative;
+    top: 77px;
+    right: 5px;
+    float: right;
+}
+.h-content li{
+	display: inline;
+	margin-left: 77px;
+}
+.h-content a{
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+	color: black;
+}
+.body{
+	width: 100%;
+	height: 509px;
+}
+.b-content{
+	width: 1100px;
+	height: 509px;
+	margin: auto;
+}
+.b-man{
+	margin: 80px 0px 0px 25px;
+	float: left;
+}
+.b-register{
+	width: 350px;
+	height: 305px;
+	position: relative;
+	top: 69px;
+	right: 39px;
+	float: right;
+}
+.b-welcome{
+	font-size: 24px;
+	float: left;
+}
+.b-login{
+	float: right;
+    margin-right: 5px;
+    color: #f75d20;
+    font-size: 11px;
+    line-height: 24px;
+}
+.body form{
+	float: left;
+	margin-top: 29px;
+}
+.body img{
+	vertical-align: middle;
+}
+.user-img,.password-img,.code-img{
+	padding: 14.5px 15px;
+	float: left;
+	background-color: #f3f3f3;
+}
+.b-user-name,.b-password,.b-verify-code{
+	width: 350px;
+	height: 50px;
+	border: 1px solid #a3a3a3;
+}
+.b-password{
+	border-top: none;
+}
+.b-verify-code{
+	border-top: none;
+}
+.b-user-name input,.b-password input{
+	height: 49px;
+	width: 300px;
+	border: none;
+	outline: none;
+}
+.b-verify-code input{
+	height: 49px;
+	width: 190px;
+	border: none;
+	outline: none;
+}
+.b-remeber{
+	float: left;
+    margin: 15px 8px 0px 0px;
+}
+.b-remeber-text{
+	margin-top: 14px;
+	font-size: 11px;
+	float: left;
+}
+.b-safe{
+	float: left;
+    margin: 15px 8px 0px 50px;
+}
+.b-safe-text{
+	margin-top: 14px;
+	font-size: 11px;
+	float: left;
+}
+.b-forget{
+	float: right;
+	font-size: 11px;
+	color: red;
+	margin-top: 14px;
+}
+button{
+	width: 350px;
+	height: 36px;
+	background-color: #e73e41;
+	border: none;
+	font-size: 18px;
+	color: #fff;
+	margin-top: 36px;
+}
