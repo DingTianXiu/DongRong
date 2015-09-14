@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>账户充值</title>
-	<link rel="stylesheet" type="text/css" href="../../asset/css/recharge.css">
+	<title>资金明细</title>
+	<link rel="stylesheet" type="text/css" href="../../asset/css/fund-details.css">
 </head>
 <body>
 	<div class="all">
@@ -39,12 +39,12 @@
             </div>
         </div>
         <div class="body">
-	        <div class="catalogue">
+        	<div class="catalogue">
 	        	<ul>
 	        		<li class="c-account"><img src="../../asset/img/member/person.png"><a href="javascript:void(0)">我的账户</a></li>
-	        		<li class="c-add-up"><a href="javascript:void(0)">账户充值</a></li>
+	        		<li><a href="javascript:void(0)">账户充值</a></li>
 	        		<li><a href="javascript:void(0)">我要提款</a></li>
-	        		<li><a href="javascript:void(0)">资金明细</a></li>
+	        		<li class="fund-details"><a href="javascript:void(0)">资金明细</a></li>
 	        		<li><a href="javascript:void(0)">个人信息</a></li>
 	        		<li><a href="javascript:void(0)">东融理财券</a></li>
 	        		<li><a href="javascript:void(0)">安全信息</a></li>
@@ -67,19 +67,96 @@
 	        	<p class="hello">您好，<span>wangcr</span>，欢迎登录东融金融会员中心！</p>
 	        	<p class="last-time">上次登录：2015/4/18 13:37:02</p>
 	        </div>
-	        <div class="detail">
-	        	<p class="worning"><img src="../../asset/img/member/tip.png">温馨提示：为了您的账户资金更安全，请及时完成邮箱、手机、实名、银行卡认证，以及支付密码的设置。</p>
-	        	<p class="balance">账户余额：<span>￥0.00</span></p>
-	        	<p class="freeze">冻结总额：<span>￥0.00</span></p>
-	        	<p class="usable">可用余额：<span>￥0.00</span></p>
-	        	<p class="collection">代收余额：<span>￥0.00</span></p>
-	        	<br>
-	        	<p class="d-add-up">累计充值：<span>￥0.00</span></p>
-	        	<p class="drawing">累计提款：<span>￥0.00</span></p>
-	        	<p class="safe">安全等级：</p>
-	        	<p class="approve">认证状态：<img class="email" src="../../asset/img/member/email.png">已认证<img class="phone" src="../../asset/img/member/phone.png">已认证<img src="../../asset/img/member/personid.png">未认证<img src="../../asset/img/member/card.png">未认证<img src="../../asset/img/member/password.png">未认证</p>
-	        	<button class="add-up-btn">充值</button>
-	        	<button class="drawing-btn">提款</button>
+	        <div class="details">
+	        	<div class="navigation">
+	        		<p id="n-fund">资金记录</p>
+	        		<p id="n-add-up">充值记录</p>
+	        		<p id="n-drawing">提款记录</p>
+	        		<a href="javascript:void(0)">导出结果</a>
+	        	</div>
+		        <form>
+		        	<label class="d-type-text">类型：</label>
+					<select class="d-type" name="type">
+						<option value="quanbu">全部</option>
+					</select>
+					<label class="d-begin-text">起始时间：</label>
+					<input class="d-begin" type="date" name="begin">
+					<label class="d-out-text">截至时间：</label>
+					<input class="d-over" type="date" name="over">
+					<button>搜索</button>
+					<table>
+						<tr>
+							<th class="leixing">类型</th>
+							<th class="cuozuo">操作金额</th>
+							<th class="zongjine">总金额</th>
+							<th class="keyong">可用金额</th>
+							<th class="dongjie">冻结金额</th>
+							<th class="daishou">待收金额</th>
+							<th class="jiaoyi">交易对方</th>
+							<th class="jilu">记录时间</th>
+						</tr>
+						<tr>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr class="tr2">
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr class="tr2">
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr class="tr2">
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+					</table>
+				</form>
 	        </div>
         </div>
 	</div>
