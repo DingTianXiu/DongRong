@@ -1,0 +1,285 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.all{
+	background-color: #eeeeee;
+}
+.top{
+	width: 100%;
+	height: 35px;
+}
+.t-content{
+	width: 1100px;
+	height: 35px;
+	margin: auto;
+}
+.t-content li{
+	display: inline;
+	font-size: 13px;
+	font-weight: bold;
+	color: #999;
+}
+.t-content img{
+	position: relative;
+	top: 5px;
+}
+.t-content span{
+	color: #ea5c5b;
+}
+.t-ul1{
+	float: left;
+}
+.t-ul1 a,.t-ul2 a{
+	color: #999;
+	text-decoration: none;
+}
+.t-help{
+	margin-left: 44px;
+}
+.t-ul2{
+	float: right;
+}
+.t-ul2 .t-out{
+	text-decoration: underline;
+}
+.head{
+	width: 100%;
+	height: 118px;
+	background-color: #fff;
+}
+.h-content{
+	width: 1100px;
+	height: 118px;
+	margin: auto;
+}
+.head img{
+	float: left;
+	margin: 19px 150px 19px 0px;
+}
+.head ul{
+	margin-top: -45px;
+	float: right;
+}
+.head li{
+	display: inline;
+	font-size: 16px;
+	font-weight: bold;
+	margin: 0px 18px;
+}
+#h-li1{
+	margin-left: 0px;
+}
+#h-li5{
+	margin-right: 0px;
+}
+.head a:link,.head a:visited{
+	text-decoration: none;
+	color: #383737;
+}
+.head a:hover,.head a:active{
+	color: red;
+}
+.body{
+	width: 1100px;
+	height: 924px;
+	margin: 22px auto 0px;
+}
+.catalogue{
+	height: 748px;
+	width: 219px;
+	background-color: #fff;
+	float: left;
+}
+.catalogue li{
+	list-style-type: none;
+	height: 36px;
+	width: 219px;
+	position: relative;
+	font-size: 14px;
+	font-weight: bold;
+}
+.catalogue .c-safety-certificate{
+	height: 42px;
+	line-height: 42px;
+	background-color: #fff2f2;	
+}
+.catalogue .c-safety-certificate a:link,.catalogue .c-safety-certificate a:visited{
+	color: #ea5e5f;
+	font-size: 16px;
+	line-height: 42px;
+}
+.catalogue a:link,.catalogue a:visited{
+	text-decoration: none;
+	color: #383737;
+	margin-left: 84px;
+	line-height: 36px;
+}
+.c-account img{
+	position: absolute;
+	top: 11px;
+	left: 57px;
+}
+.c-property img,.c-financing img,.c-else img{
+	position: absolute;
+	top: 7px;
+	left: 57px;
+}
+.catalogue .c-account{
+	background-color: #ea5c5b;
+	height: 42px;
+}
+.c-account a:link,.c-account a:visited{
+	text-decoration: none;
+	color: #fff;
+	margin-left: 84px;
+	line-height: 42px;
+}
+.welcome{
+	width: 865px;
+	height: 41px;
+	background-color: #fff;
+	border: 1px solid #e7e5e6;
+	margin: 0px 0px 18px 235px;
+	position: relative;
+}
+.welcome img{
+	margin: 10px 11px 0px 18px;
+	float: left;
+}
+.hello{
+	width: 400px;
+	margin: 11px 0px 0px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.welcome span{
+	color: #ea5c5b;
+}
+.last-time{
+	font-size: 14px;
+    float: right;
+    position: absolute;
+    right: 22px;
+    top: 11px;
+}
+.details{
+	width: 865px;
+	height: 746px;
+	background-color: #fff;
+	margin-left: 235px;
+	border: 1px solid #e7e5e6;
+}
+.navigation{
+	width: 100%;
+	height: 30px;
+	background-color: #f8f8f8;
+	border-bottom: 1px solid #e7e5e6;
+	position: relative;
+}
+#n-safe{
+	height: 37px;
+	width: 122px;
+	font-size: 18px;
+	font-weight: bold;
+	color: #ea5e5f;
+	line-height: 37px;
+	text-align: center;
+	border: 1px solid #e7e5e6;
+	border-bottom: 1px solid #fff;
+	border-left: none;
+	background-color: #fff;
+	float: left;
+	position: absolute;
+	top: -7px;
+}
+#n-password{
+	height: 30px;
+	width: 122px;
+	font-size: 16px;
+	color: #868686;
+	line-height: 30px;
+	text-align: center;
+	border-right: 1px solid #e7e5e6;
+	position: absolute;
+	left: 122px;
+}
+.navigation a{
+	float: right;
+	font-size: 12px;
+	color: #ff7100;
+	line-height: 30px;
+	margin-right: 26px;
+}
+.worning{
+	width: 826px;
+	height: 38px;
+	background-color: #feedd9;
+	border-radius: 8px;
+	font-size: 14px;
+	font-weight: 100;
+	line-height: 38px;
+	color: #f5847c;
+	margin: 0px auto 53px;
+	position: relative;
+	top: 32px
+}
+.worning img{
+	margin-right: 10px;
+    margin-left: 30px;
+    position: relative;
+    top: 5px;
+}
+.d-email,.d-phone,.d-real-name,.d-bankcard,.d-password{
+	width: 736px;
+	height: 72px;
+	border-bottom: 1px solid #ddd;
+	margin: 0px auto;
+}
+.d-email{
+	margin-top: 80px;
+}
+.details li{
+	display: inline;
+	line-height: 72px;
+}
+.d-email-li2,.d-phone-li2,.d-real-li2,.d-bankcard-li2,.d-password-li2{
+	font-size: 16px;
+	color: #5e5e5e;
+}
+.d-email-li3,.d-real-li3,.d-bankcard-li3,.d-password-li3{
+	font-size: 12px;
+	color: #5e5e5e;
+}
+.d-phone-li3{
+	font-size: 12px;
+	color: #ff8803;
+}
+.d-email-li3,.d-phone-li3,.d-real-li3,.d-password-li3{
+	margin-left: 93px;
+}
+.d-bankcard-li3{
+	margin-left: 80px;
+}
+.d-email-li4{
+	margin-left: 130px;	
+}
+.d-phone-li4{
+	margin-left: 307px;
+}
+.d-real-li4{
+	margin-left: 205px;
+}
+.d-bankcard-li4{
+	margin-left: 133px;
+}
+.d-password-li4{
+	margin-left: 84px;
+}
+.details li img{
+	vertical-align: middle;
+	margin-left: 10px;
+}
+.d-img-phone{
+	margin-right: 5px;
+}
